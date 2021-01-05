@@ -1,10 +1,9 @@
-def increase_score(score):
-  if answer == "Yes":
-    score = score + 1
-  return score
+def change_colour(c):
+  print(f"Your current colour is {colour}")
+  print("What would you like to change it to?")
+  c = input()
+  return c
 
-
-score = 0
-answer = "Yes"
-score = increase_score(score)
-print(score)
+colour = "Red"
+c = change_colour(colour)
+print(f"Your current colour is {c}")
