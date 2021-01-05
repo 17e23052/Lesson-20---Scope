@@ -1,9 +1,10 @@
-def triple(a):
-  a = a * 3
-  return a
+def increase_score(score):
+  if answer == "Yes":
+    score = score + 1
+  return score
 
 
-num1 = int(input()))
-
-num1 = triple(num1)
-print(num1)
+score = 0
+answer = "Yes"
+score = increase_score(score)
+print(score)
